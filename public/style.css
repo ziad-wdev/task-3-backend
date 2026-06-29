@@ -27,16 +27,6 @@ body {
   height: 100vh;
 }
 
-a {
-  color: hsl(0 100% 35%);
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-}
-
-a:hover {
-  color: hsl(0 100% 55%);
-}
-
 @keyframes bgmovement {
   from {
     background-position: 0%;
@@ -44,6 +34,17 @@ a:hover {
   to {
     background-position: 100%;
   }
+}
+
+a {
+  color: hsl(0 100% 35%);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  transition: all 150ms;
+}
+
+a:hover {
+  color: hsl(0 100% 55%);
 }
 
 .container {
